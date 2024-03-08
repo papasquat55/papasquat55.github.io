@@ -222,7 +222,7 @@
 
 <nav class="container-element editable-style silex-id-1538221038117-34 section-element hide-on-desktop prevent-resizable"><div class="editable-style silex-id-1538221038114-33 container-element silex-element-content website-width"><div class="editable-style text-element silex-id-1696689228241-1 hide-on-desktop silex-component-hamburger prevent-resizable prevent-auto-z-index nav"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1700598098791_13 closed">
+<div class="hamburger-menu_1709831227922_651 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -251,13 +251,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1700598098791_13').classList.remove('open');
-    document.querySelector('.hamburger-menu_1700598098791_13').classList.add('closed');
+    document.querySelector('.hamburger-menu_1709831227922_651').classList.remove('open');
+    document.querySelector('.hamburger-menu_1709831227922_651').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1700598098791_13').classList.add('open');
-    document.querySelector('.hamburger-menu_1700598098791_13').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1709831227922_651').classList.add('open');
+    document.querySelector('.hamburger-menu_1709831227922_651').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -267,7 +267,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1700598098791_13').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1709831227922_651').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -275,10 +275,10 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1700598098791_13 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1709831227922_651 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1700598098791_13 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1709831227922_651 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -305,7 +305,7 @@
                 <div class="silex-element-content normal"><p><a href="contact.html" class="page-link-active">Contact</a></p>
                 </div>
             </div><div class="editable-style text-element silex-id-1439554967286-60 nav-mark nav hide-on-mobile" title=""><div class="silex-element-content normal">
-                    <p><a href="services-offered.html" title="Services Offered" class="">services offered</a><br></p></div></div><div class="editable-style image-element silex-id-1697421018631-0"><img src="assets/Color%20logo%20-%20no%20background.png"></div></nav></header><div class="container-element website-min-width editable-style silex-id-1490701905049-21 section-element prevent-resizable page-news-press">
+                    <p><a href="services-offered.html" title="Services Offered" class="">services offered</a><br></p></div></div><div class="editable-style image-element silex-id-1709831256628-4"><img src="assets/Color%20logo%20-%20no%20background%20newwordsv3.png"></div></nav></header><div class="container-element website-min-width editable-style silex-id-1490701905049-21 section-element prevent-resizable page-news-press">
         
     <div class="editable-style silex-element-content website-width silex-id-1490701905043-20 container-element"></div></div><section class="editable-style section-element silex-id-1696612056016-0 page-contact paged-element paged-element-visible"><div class="editable-style container-element silex-id-1696612056016-1 silex-element-content website-width prevent-draggable"><div class="editable-style text-element silex-id-1696629242748-4 hide-on-desktop page-contact paged-element paged-element-visible"><div class="silex-element-content normal"><p><b>﻿</b>Contact Us<br></p></div></div><div class="editable-style image-element silex-id-1696625686611-0 hide-on-mobile"></div><div class="editable-style text-element silex-id-1696612076426-2 page-contact paged-element hide-on-mobile paged-element-visible"><div class="silex-element-content normal"><h1>Contact Us<br></h1></div></div><div class="editable-style text-element silex-id-1696612148997-3 page-contact paged-element hide-on-mobile paged-element-visible"><div class="silex-element-content normal"><p>Call or text: <br></p><p>Email: <br></p><p>Hours: 09:00-17:00 <br></p><p>Monday-Friday</p><p>AOG Fee: $100</p><p>Address: 1814 Taxiway Charlie, Sandpoint ID, 83864<br></p></div></div><div class="editable-style html-element silex-id-1696616404661-3 page-contact paged-element hide-on-mobile paged-element-visible"><div class="silex-element-content"><a href="tel:+12082174990">(208) 217-4990</a></div></div><div class="editable-style html-element silex-id-1696615803079-2 page-contact paged-element hide-on-mobile paged-element-visible"><div class="silex-element-content"><a href="mailto:john@destinysolutions.net?" subject="HTML link">
 john@destinysolutions.net</a></div></div></div></section><footer class="container-element website-min-width editable-style silex-id-1490694042605-9 section-element prevent-resizable page-our-team page-contact paged-element page-the-team page-services-offered page-home paged-element-visible">
@@ -338,4 +338,5 @@ john@destinysolutions.net</a></div></div></div></section><footer class="containe
             </a><a class="editable-style text-element silex-id-1439554962181-10 nav hide-on-mobile nav-mark page-link-active" href="contact.html">
                 <div class="silex-element-content normal"><p>Contact</p>
                 </div>
-            </a><div class="editable-style html-element silex-id-1696616986702-4 hide-on-mobile"><div class="silex-element-content"><a href="tel:+12082174990">(208) 217-4990</a></div></div><div class="editable-style image-element silex-id-1696625761243-1 hide-on-mobile"><img src="assets/NicePng_white-menu-icon-png_3794777.png"></div></div></footer></body></html>
+            </a><div class="editable-style html-element silex-id-1696616986702-4 hide-on-mobile"><div class="silex-element-content"><a href="tel:+12082174990">(208) 217-4990</a></div></div><div class="editable-style image-element silex-id-1696625761243-1 hide-on-mobile"><img src="assets/NicePng_white-menu-icon-png_3794777.png"></div><div class="editable-style text-element silex-id-1709784946375-0"><div class="silex-element-content normal">
+© 2024 Destiny Aviation Solutions LLC<br></div></div></div></footer></body></html>
